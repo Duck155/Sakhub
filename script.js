@@ -107,7 +107,7 @@ particlesJS("particles-js", {
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 20
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -126,7 +126,7 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 3,
+      "value": 2,
       "random": true,
       "anim": {
         "enable": true,
@@ -199,4 +199,5 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-_.get("#frame").src = localStorage.getItem("proxy") || "https://soap2day.com"
+
+_.get("#frame").src = localStorage.getItem("proxy") || "https://proud-monkey-89.telebit.io"
